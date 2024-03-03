@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 /*início exercício 1*/
 static void MaiorSalario()
