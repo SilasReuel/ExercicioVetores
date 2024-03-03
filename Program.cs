@@ -201,9 +201,8 @@ static void ValoresInteiros()
     Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DIVISÃO>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
     for (int i = 0; i < 5; i++)
     {
-        double divisao = (double)vet1[i] / (double)vet2[i];
         Console.WriteLine($"Divisão dos valores na {i + 1}° posição: ");
-        Console.WriteLine(divisao);
+        Console.WriteLine((double)vet1[i] / (double)vet2[i]);
         Console.WriteLine();
     }
 }
